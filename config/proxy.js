@@ -7,9 +7,9 @@
  */
 export default {
   dev: {
-    '/api/': {
+    '/admin/': {
       // target: 'https://preview.pro.ant.design',
-      target: 'http://localhost:3721',
+      target: 'http://localhost:5000',
       changeOrigin: true,
       pathRewrite: {
         '^': '',
@@ -17,9 +17,9 @@ export default {
     },
   },
   test: {
-    '/api/': {
+    '/admin/': {
       // target: 'https://preview.pro.ant.design',
-      target: 'http://localhost:3721',
+      target: 'http://localhost:5000',
       changeOrigin: true,
       pathRewrite: {
         '^': '',
@@ -27,7 +27,7 @@ export default {
     },
   },
   pre: {
-    '/api/': {
+    '/admin/': {
       target: 'your pre url',
       changeOrigin: true,
       pathRewrite: {
